@@ -72,3 +72,21 @@
 	top: 0px;
 	left: 0px;
 }
+
+#two > div[data-role=content]
+{
+	margin: 0em;
+	padding: 0em;
+	display: table;
+	text-align: center;
+}
+
+#two > div[data-role=content] > img
+{
+	width: 100%;
+	height: 100%;
+	margin: 0em;
+	padding: 0em;
+	display: table-cell;
+	vertical-align: middle;
+}
