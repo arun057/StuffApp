@@ -1,2 +1,73 @@
-body {
+#one {
+}
+
+#one > div[data-role=header],
+#one > div[data-role=footer]
+{
+	background: #000 none;
+}
+
+#one > div[data-role=footer]
+{
+	background-color: rgba(0,0,0,0.6);
+	height: 4em;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#one > div[data-role=footer] > a[data-role=button]
+{
+	margin: 1em 0em;
+	box-shadow: 0px 2px 16px #000;
+	background: #000 none;
+}
+
+#one > div[data-role=footer] > a[data-role=button] b
+{
+	margin: 0em;
+	padding: 0em;
+	font-size: 1.3em;
+}
+
+#one > div[data-role=footer] > a[data-role=button] b:nth-child(1),
+#one > div[data-role=footer] > a[data-role=button] b:nth-child(3)
+{
+	color: red;
+}
+
+#one > div[data-role=header] > h2
+{
+	font-size: 200%;
+	margin: 0em;
+	padding: 0.1em 0.2em;
+}
+
+#one > div[data-role=header] > h2 > b:nth-child(1),
+#one > div[data-role=header] > h2 > b:nth-child(3)
+{
+	color: red;
+	text-transform: uppercase;
+}
+
+#one > div[data-role=header] > h2 > b:nth-child(2)
+{
+	color: white;
+	text-transform: lowercase;
+}
+
+#one > div[data-role=content]
+{
+	display: table;
+	height: 120%;
+}
+
+#one > div[data-role=content] > img
+{
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
 }
