@@ -1,6 +1,8 @@
 *.pydevproject
 .project
 .metadata
+.build
+.sdk_delta.info
 bin/**
 tmp/**
 tmp/**/*
